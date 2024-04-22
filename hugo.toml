@@ -1,6 +1,6 @@
-baseURL = 'https://matrixhead.github.io/'
+baseURL = 'https://iteoe.github.io/'
 languageCode = 'en-us'
-title = 'Head of M'
+title = 'In The Event Of Emergency'
 theme = 'holy'
 
 [params]
