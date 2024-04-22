@@ -1,10 +1,11 @@
 baseURL = 'https://iteoe.github.io/'
 languageCode = 'en-us'
-title = 'In The Event Of Emergency'
+title = 'IN THE EVENT OF AN EMERGENCY'
 theme = 'holy'
 
 [params]
   copyright = ""
+  subtitle = 'ഒരു അടിയന്തരാവസ്ഥക്കാലത്ത്'
 
 [menu]
 
