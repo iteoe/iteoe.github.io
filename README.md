@@ -1,1 +1,2 @@
-hfhf
+# git journal setup steps
+-
