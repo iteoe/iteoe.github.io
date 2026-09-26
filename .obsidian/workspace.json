@@ -181,6 +181,39 @@
       "bases:Create new base": false
     }
   },
-  "active": "28aab36db82ef63b",
-  "lastOpenFiles": []
+  "active": "a2fb168fa0e67d0c",
+  "lastOpenFiles": [
+    "public/tags/obsidian/index.html",
+    "public/tags/test/index.html",
+    "public/posts/test/index.html",
+    "public/posts/test",
+    "content/posts/test.md",
+    "layouts/partials/head.html",
+    "themes/holy/yarn.lock",
+    "themes/holy/theme.toml",
+    "themes/holy/package.json",
+    "themes/holy/layouts/shortcodes/li.html",
+    "themes/holy/layouts/partials/prose.html",
+    "themes/holy/layouts/partials/li.html",
+    "themes/holy/images/tn.png",
+    "themes/holy/images/screenshot.png",
+    "themes/holy/exampleSite/content/post/rich-content.md",
+    "themes/holy/exampleSite/content/post/placeholder-text.md",
+    "themes/holy/exampleSite/content/post/math-typesetting.md",
+    "themes/holy/exampleSite/content/post/markdown-syntax.md",
+    "themes/holy/exampleSite/content/post/emoji-support.md",
+    "themes/holy/exampleSite/content/post/_index.md",
+    "themes/holy/exampleSite/content/homepage/work.md",
+    "themes/holy/exampleSite/content/homepage/index.md",
+    "themes/holy/exampleSite/content/homepage/about.md",
+    "themes/holy/exampleSite/content/archives.md",
+    "themes/holy/exampleSite/content/about.md",
+    "themes/holy/exampleSite/content/_index.md",
+    "themes/holy/exampleSite/README.md",
+    "themes/holy/archetypes/default.md",
+    "themes/holy/README.md",
+    "public/0cb3c23f5072f7b4a571af647cece3a2.jpg",
+    "public/posts/0cb3c23f5072f7b4a571af647cece3a2.jpg",
+    "public/86677c60160b9ff6a0819d2218df604c.jpg"
+  ]
 }

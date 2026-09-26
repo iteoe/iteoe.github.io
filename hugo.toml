@@ -7,6 +7,12 @@ theme = 'holy'
   copyright = ""
   subtitle = 'ഒരു അടിയന്തരാവസ്ഥക്കാലത്ത്'
 
+  [params.author]
+    name = ""
+
+  copyright = ""
+  subtitle = 'ഒരു അടിയന്തരാവസ്ഥക്കാലത്ത്'
+
 [menu]
 
   [[menu.main]]
