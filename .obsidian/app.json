@@ -3,5 +3,5 @@
   "newFileFolderPath": "content/posts",
   "attachmentFolderPath": "static",
   "useMarkdownLinks": true,
-  "newLinkFormat": "relative"
+  "newLinkFormat": "absolute"
 }
