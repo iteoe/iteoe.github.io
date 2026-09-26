@@ -1,3 +1,23 @@
-public
+# Hugo build output & cache
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Node (only if tooling like PostCSS/inline assets is added later)
+node_modules/
+
+# Obsidian — ignore local/session state, keep shared config
 .obsidian/workspace.json
-.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+content/.obsidian/workspace.json
+content/.obsidian/workspace-mobile.json
+content/.obsidian/cache/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
