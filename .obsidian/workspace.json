@@ -11,13 +11,32 @@
             "id": "28aab36db82ef63b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/Scribe~5.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Scribe~5"
+            }
+          },
+          {
+            "id": "d5a9b2b9f27f7c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/posts/scribe~1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "scribe~1"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -95,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/posts/scribe~1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/posts/scribe~1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "content/posts/scribe~1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,20 +203,31 @@
       "bases:Create new base": false
     }
   },
-  "active": "a2fb168fa0e67d0c",
+  "active": "d5a9b2b9f27f7c14",
   "lastOpenFiles": [
-    "public/tags/obsidian/index.html",
-    "public/tags/test/index.html",
-    "public/posts/test/index.html",
-    "public/posts/test",
+    "content/posts/Untitled.md",
+    "content/posts/scribe~1.md",
+    "content/posts/hi.md",
+    "public/posts/hi/index.html",
+    "public/posts/hi",
+    "content/posts/2026-09-26.md",
+    "public/posts/2026-09-26/index.html",
+    "public/posts/2026-09-26",
+    "public/posts/untitled/index.html",
+    "public/posts/untitled",
+    "content/posts/Scribe~5.md",
+    "content/posts/Scribe~6.md",
+    "content/posts/Scribe~3_1.md",
+    "2026-09-26.md",
+    "content/posts/Scribe~2.md",
+    "content/posts/0cb3c23f5072f7b4a571af647cece3a2.jpg",
+    "Templates/Hugo Post.md",
+    "jlksdajflskdj.md",
+    "Templates",
     "content/posts/test.md",
-    "layouts/partials/head.html",
-    "themes/holy/yarn.lock",
-    "themes/holy/theme.toml",
-    "themes/holy/package.json",
-    "themes/holy/layouts/shortcodes/li.html",
-    "themes/holy/layouts/partials/prose.html",
-    "themes/holy/layouts/partials/li.html",
+    "layouts/_default/single.html",
+    "layouts/_default/list.html",
+    "layouts/_default",
     "themes/holy/images/tn.png",
     "themes/holy/images/screenshot.png",
     "themes/holy/exampleSite/content/post/rich-content.md",
@@ -211,7 +244,6 @@
     "themes/holy/exampleSite/content/_index.md",
     "themes/holy/exampleSite/README.md",
     "themes/holy/archetypes/default.md",
-    "themes/holy/README.md",
     "public/0cb3c23f5072f7b4a571af647cece3a2.jpg",
     "public/posts/0cb3c23f5072f7b4a571af647cece3a2.jpg",
     "public/86677c60160b9ff6a0819d2218df604c.jpg"
