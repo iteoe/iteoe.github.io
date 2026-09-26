@@ -1,4 +1,7 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/posts"
+  "newFileFolderPath": "content/posts",
+  "attachmentFolderPath": "static",
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }

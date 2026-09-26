@@ -1,0 +1,24 @@
+{{- /*
+  Image render hook that makes Obsidian-style paths work with Hugo's static folder.
+
+  Handled forms:
+    static/filename.jpg      -> /filename.jpg
+    ../static/filename.jpg   -> /filename.jpg
+    ../../static/filename.jpg-> /filename.jpg
+    /filename.jpg            -> unchanged (already site-root absolute)
+    http(s)://... , data:... -> unchanged (external)
+    filename.jpg             -> looked up as a page resource (bundle images)
+*/ -}}
+{{- $dest := .Destination -}}
+{{- $src := $dest -}}
+{{- if not (or (hasPrefix $dest "http://") (hasPrefix $dest "https://") (hasPrefix $dest "//") (hasPrefix $dest "data:") (hasPrefix $dest "/")) -}}
+  {{- $rel := $dest | replaceRE "^(?:\\.\\./)+" "" | replaceRE "^\\./" "" -}}
+  {{- if hasPrefix $rel "static/" -}}
+    {{- $src = printf "/%s" (replaceRE "^static/" "" $rel) -}}
+  {{- else if and (not (strings.Contains $rel "/")) (.Page.Resources.GetMatch $rel) -}}
+    {{- $src = (.Page.Resources.GetMatch $rel).RelPermalink -}}
+  {{- else -}}
+    {{- $src = $rel -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}>
