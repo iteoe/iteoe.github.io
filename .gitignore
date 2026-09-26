@@ -10,9 +10,9 @@ node_modules/
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
-content/.obsidian/workspace.json
-content/.obsidian/workspace-mobile.json
-content/.obsidian/cache/
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.obsidian/community-plugin-versions.json
 
 # OS / editor noise
 .DS_Store
